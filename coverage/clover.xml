@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1516082936269" clover="3.2.0">
-  <project timestamp="1516082936270" name="All files">
+<coverage generated="1516101219287" clover="3.2.0">
+  <project timestamp="1516101219287" name="All files">
     <metrics statements="27" coveredstatements="13" conditionals="18" coveredconditionals="6" methods="0" coveredmethods="0" elements="45" coveredelements="19" complexity="0" loc="27" ncloc="27" packages="1" files="1" classes="1">
-      <file name="tool.js" path="E:\jackieli\Unit testing in JavaScript\n-vue-components-test-by-jest\src\components\tool.js">
+      <file name="tool.js" path="E:\jackieli\my-github\vue-table-pagination\src\components\tool.js">
         <metrics statements="27" coveredstatements="13" conditionals="18" coveredconditionals="6" methods="0" coveredmethods="0"/>
         <line num="58" count="0" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
@@ -16,21 +16,21 @@
         <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="76" count="0" type="stmt"/>
         <line num="139" count="0" type="stmt"/>
-        <line num="147" count="6" type="stmt"/>
-        <line num="148" count="6" type="stmt"/>
-        <line num="150" count="6" type="stmt"/>
-        <line num="151" count="6" type="stmt"/>
-        <line num="155" count="6" type="stmt"/>
-        <line num="162" count="6" type="stmt"/>
-        <line num="164" count="6" type="stmt"/>
-        <line num="165" count="6" type="stmt"/>
-        <line num="200" count="6" type="stmt"/>
-        <line num="201" count="6" type="stmt"/>
-        <line num="203" count="6" type="stmt"/>
-        <line num="204" count="6" type="stmt"/>
+        <line num="147" count="40" type="stmt"/>
+        <line num="148" count="40" type="stmt"/>
+        <line num="150" count="40" type="stmt"/>
+        <line num="151" count="40" type="stmt"/>
+        <line num="155" count="40" type="stmt"/>
+        <line num="162" count="40" type="stmt"/>
+        <line num="164" count="40" type="stmt"/>
+        <line num="165" count="40" type="stmt"/>
+        <line num="200" count="40" type="stmt"/>
+        <line num="201" count="40" type="stmt"/>
+        <line num="203" count="40" type="stmt"/>
+        <line num="204" count="40" type="stmt"/>
         <line num="206" count="0" type="stmt"/>
         <line num="207" count="0" type="stmt"/>
-        <line num="210" count="60" type="stmt"/>
+        <line num="210" count="400" type="stmt"/>
       </file>
     </metrics>
   </project>
