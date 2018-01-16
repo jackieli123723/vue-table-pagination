@@ -2,7 +2,7 @@ language: node_js
 node_js:
  - '8.1.2'
 script: "npm run test -- -u"
-after_script: "npm run coveralls"
+after_script: "npm run test:coverage"
 after_success:
   - cat .coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 cache:
