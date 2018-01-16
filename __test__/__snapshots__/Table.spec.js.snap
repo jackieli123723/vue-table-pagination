@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table.vue matches table snapshot 1`] = `
+<div class="gm-table">
+    <div class="gm-table-content">
+        <div class="gm-table-body">
+            <table style="width:3000px;">
+                <thead class="gm-table-thead">
+                    <tr>
+                        <th><span>序号</span></th>
+                        <th><span>流水号</span></th>
+                        <th><span>标题</span></th>
+                        <th><span>内容预览</span></th>
+                        <th><span>邮件奖励</span></th>
+                        <th><span>收件人/人数</span></th>
+                        <th><span>发送时间</span></th>
+                        <th><span>创建者</span></th>
+                        <th><span>创建时间</span></th>
+                        <th><span>审核人</span></th>
+                        <th><span>审核时间</span></th>
+                        <th><span>操作</span></th>
+                    </tr>
+                </thead>
+                <tbody class="gm-table-tbody">
+                    <tr class="gm-table-row">
+                        <td>1</td>
+                        <td>
+                            14
+                        </td>
+                        <td>
+                            标题1
+                        </td>
+                        <td>
+                            这是标题1的所有内容...
+                        </td>
+                        <td>
+                            是
+                        </td>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            2018/01/13 00:00:00
+                        </td>
+                        <td>
+                            超级管理员1
+                        </td>
+                        <td>
+                            2018/01/13 15:28:13
+                        </td>
+                        <td>
+                            admin
+                        </td>
+                        <td>
+                            2018/01/13 15:28:13
+                        </td>
+                        <td><span action="edit" class="table-btn edit">
+                 编辑
+               </span><span action="delte" class="table-btn delte">
+                 删除
+               </span></td>
+                    </tr>
+                    <tr class="gm-table-row">
+                        <td>2</td>
+                        <td>
+                            15
+                        </td>
+                        <td>
+                            标题2
+                        </td>
+                        <td>
+                            这是标题2的所有内容...
+                        </td>
+                        <td>
+                            是
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            2018/01/13 00:00:00
+                        </td>
+                        <td>
+                            超级管理员2
+                        </td>
+                        <td>
+                            2018/01/13 15:21:33
+                        </td>
+                        <td>
+                            jackieli
+                        </td>
+                        <td>
+
+                        </td>
+                        <td><span action="edit" class="table-btn edit">
+                 编辑
+               </span><span action="delte" class="table-btn delte">
+                 删除
+               </span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!---->
+            <div class="gm-pagination "><span class="gm-pagination-info ">共 100 条记录</span> <span class="gm-pagination-info">  每页显示</span>
+                <div class="gm-modle-select-box"><span>10 条/页 <i class="iconfont icon-down-arrow"></i> <ul class="gm-modle-select-dropdown"><li class="selected">10 条/页</li><li>20 条/页</li><li>30 条/页</li><li>50 条/页</li></ul></span></div> <span><span class="gm-pagination-input">  跳到第 <input type="text" onkeyup="value=value.replace(/[^\\d]/g,'')"> 页</span>                <span class="gm-pagination-submit">确定</span></span>
+                <div class="fr"><span class="gm-pagination-button boundary disable">首页</span> <span class="gm-pagination-button disable"><i class="iconfont icon-prev"></i></span>
+                    <!----><span><span class="gm-pagination-button active">1</span></span><span><span class="gm-pagination-button">2</span></span><span><span class="gm-pagination-button">3</span></span><span><span class="gm-pagination-button">4</span></span><span><span class="gm-pagination-button">5</span></span>
+                    <span class="gm-pagination-info">...</span> <span class="gm-pagination-button"><i class="iconfont icon-next"></i></span> <span class="gm-pagination-button boundary">尾页</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+`;
