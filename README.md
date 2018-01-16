@@ -1,6 +1,8 @@
 # vue-table-pagination
 vue2封装的table联动组件
 
+[![Build Status](https://www.travis-ci.org/jackieli123723/vue-table-pagination.svg?branch=master)](https://www.travis-ci.org/jackieli123723/vue-table-pagination)
+> A Vue.js project about Admin
 
 # 西门互联分页组件
 可自定义配置和分页可fork自行修改
