@@ -103,9 +103,9 @@ exports[`Table.vue matches table snapshot 1`] = `
             <!---->
             <div class="gm-pagination "><span class="gm-pagination-info ">共 100 条记录</span> <span class="gm-pagination-info">  每页显示</span>
                 <div class="gm-modle-select-box"><span>10 条/页 <i class="iconfont icon-down-arrow"></i> <ul class="gm-modle-select-dropdown"><li class="selected">10 条/页</li><li>20 条/页</li><li>30 条/页</li><li>50 条/页</li></ul></span></div> <span><span class="gm-pagination-input">  跳到第 <input type="text" onkeyup="value=value.replace(/[^\\d]/g,'')"> 页</span>                <span class="gm-pagination-submit">确定</span></span>
-                <div class="fr"><span class="gm-pagination-button boundary disable">首页</span> <span class="gm-pagination-button disable"><i class="iconfont icon-prev"></i></span>
+                <div class="fr"><span class="gm-pagination-button boundary disable">首页</span> <span class="gm-pagination-button disable"><i class="iconfont icon-prev">&lt;</i></span>
                     <!----><span><span class="gm-pagination-button active">1</span></span><span><span class="gm-pagination-button">2</span></span><span><span class="gm-pagination-button">3</span></span><span><span class="gm-pagination-button">4</span></span><span><span class="gm-pagination-button">5</span></span>
-                    <span class="gm-pagination-info">...</span> <span class="gm-pagination-button"><i class="iconfont icon-next"></i></span> <span class="gm-pagination-button boundary">尾页</span></div>
+                    <span class="gm-pagination-info">...</span> <span class="gm-pagination-button"><i class="iconfont icon-next">&gt;</i></span> <span class="gm-pagination-button boundary">尾页</span></div>
             </div>
         </div>
     </div>
