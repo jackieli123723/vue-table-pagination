@@ -1,11 +1,12 @@
 # vue-table-pagination
 vue2封装的table联动组件
 
-[![npm compact](https://nodei.co/npm/vue-table-pagination.png?compact=true)
+[![NPM](https://nodei.co/npm/vue-table-pagination.png?compact=true)](https://www.npmjs.org/package/vue-table-pagination)
+
 [![npm version](https://badge.fury.io/js/vue-table-pagination.svg)](https://badge.fury.io/js/vue-table-pagination)
 [![Build Status](https://www.travis-ci.org/jackieli123723/vue-table-pagination.svg?branch=master)](https://www.travis-ci.org/jackieli123723/vue-table-pagination)
 [![Coverage Status](https://coveralls.io/repos/github/jackieli123723/vue-table-pagination/badge.svg?branch=master)](https://coveralls.io/github/jackieli123723/vue-table-pagination?branch=master)
-[![npm Download](https://img.shields.io/npm/dm/vue-table-pagination.svg)
+[![npm Download](https://img.shields.io/npm/dm/vue-table-pagination.svg)](https://www.npmjs.com/package/vue-table-pagination)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 ## Install with npm
