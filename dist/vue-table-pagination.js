@@ -1,5 +1,5 @@
 /**
- * vue-table-pagination v1.1.0
+ * vue-table-pagination v1.1.2
  * https://github.com/jackieli123723/vue-table-pagination
  * Released under the MIT License.West Gate Internet
  */
