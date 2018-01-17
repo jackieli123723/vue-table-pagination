@@ -1,6 +1,6 @@
 {
   "name": "vue-table-pagination",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "vue-table-pagination using Jest + vue-test-utils together test webpack3 vue2.",
   "main": "dist/vue-table-pagination.js",
   "scripts": {
