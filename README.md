@@ -4,11 +4,25 @@ vue2封装的table联动组件
 [![Build Status](https://www.travis-ci.org/jackieli123723/vue-table-pagination.svg?branch=master)](https://www.travis-ci.org/jackieli123723/vue-table-pagination)
 [![Coverage Status](https://coveralls.io/repos/github/jackieli123723/vue-table-pagination/badge.svg?branch=master)](https://coveralls.io/github/jackieli123723/vue-table-pagination?branch=master)
 
+## Install with npm
+
+```
+Installing
+
+npm install --save vue-table-pagination
+
+Import
+
+import Vue from 'vue';
+import VueTablePagination from 'vue-table-pagination';
+Vue.use(VueTablePagination);
+```
+
 # 西门互联分页组件
 可自定义配置和分页可fork自行修改
 
 ```
-<GmTable
+<VueTablePagination
         @gmChangePageButton="gmChangePageButton"
         @gmChagePageSize="gmChagePageSize"
         :gmCurrentPage="page"
@@ -21,7 +35,7 @@ vue2封装的table联动组件
         @gmPerEmitClick="gmPerEmitClick"
         :gmTableWidth="0"
         :gmTimeStampType="63"
-></GmTable>
+></VueTablePagination>
 gmChangePageButton -- 按钮改变分页
 gmChagePageSize --每页显示多少条
 page -- 当前高亮锚点

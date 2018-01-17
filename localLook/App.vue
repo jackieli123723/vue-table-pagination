@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <div>
     <div class="page-view">
         <div class="page-content">
           <!-- 通用table组件 -->
           <!--用法 -->
           <h2>{{messageTable}}</h2>
-          <GmTable
+          <VueTablePagination
                   @gmChangePageButton="gmChangePageButton"
                   @gmChagePageSize="gmChagePageSize"
                   :gmCurrentPage="page"
@@ -18,7 +18,7 @@
                   @gmPerEmitClick="gmPerEmitClick"
                   :gmTableWidth="0"
                   :gmTimeStampType="63"
-          ></GmTable>
+          ></VueTablePagination>
 
         </div>
       </div>
@@ -26,14 +26,14 @@
 </template>
 
 <script>
-import GmTable from '@/components/Table.vue'
+import VueTablePagination from '@/components/Table.vue'
 export default {
   components: {
-    GmTable
+    VueTablePagination
   },
   computed: {
      messageTable() {
-       return '西门互联vue-table-pagination组件......用法详见控制台--http://localhost:8080'
+       return '西门互联vue-table-pagination组件......用法详见控制台--http://localhost:9100'
      }
    },
   data () {

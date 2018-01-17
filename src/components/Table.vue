@@ -13,8 +13,8 @@
          <tbody class="gm-table-tbody" v-if="gmTotalPage>0" >
              <tr class="gm-table-row" v-for="(listTd,index) in gmTableTdListsFilter" >
               <td v-if="gmIsIndex">{{index+1}}</td>
-              <td v-for="(tableItemTd,tableIndex) in  Object.values(listTd)">
-                {{tableItemTd.value}}
+              <!-- 修复高亮html标签 -->
+              <td v-for="(tableItemTd,tableIndex) in  Object.values(listTd)" v-html=tableItemTd.value>
               </td>
               <td v-if="gmIsOperationOperate">
                 <!-- 按钮事件单独出来处理 -->
@@ -70,7 +70,7 @@
 import { gmCount, show_msg,formatTdFilters } from './tool'
 
 export default {
-  name: 'gm-table',
+  name: 'vue-table-pagination',
   props: {
     //总数据
     gmTableLists:{
