@@ -7,6 +7,7 @@ vue2封装的table联动组件
 [![Build Status](https://www.travis-ci.org/jackieli123723/vue-table-pagination.svg?branch=master)](https://www.travis-ci.org/jackieli123723/vue-table-pagination)
 [![Coverage Status](https://coveralls.io/repos/github/jackieli123723/vue-table-pagination/badge.svg?branch=master)](https://coveralls.io/github/jackieli123723/vue-table-pagination?branch=master)
 [![npm Download](https://img.shields.io/npm/dm/vue-table-pagination.svg)](https://www.npmjs.com/package/vue-table-pagination)
+[![gzip](http://img.badgesize.io/https://unpkg.com/vue-table-pagination?compression=gzip)](https://www.npmjs.com/package/vue-table-pagination)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 ## Install with npm
