@@ -10,6 +10,11 @@ vue2封装的table联动组件
 [![gzip](http://img.badgesize.io/https://unpkg.com/vue-table-pagination?compression=gzip)](https://www.npmjs.com/package/vue-table-pagination)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
+
+## Live Demo
+
+[vue-table-pagination-demo Site](http://page.lilidong.cn/#/)
+
 ## Install with npm
 
 ```
