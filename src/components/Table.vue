@@ -145,7 +145,9 @@ export default {
     return {
       gmCanJumpNum: null,
       gmDefaultPageSize:10,
-      gmSelectItem:[10,20,30,50]
+      gmSelectItem:[10,20,30,50],
+      checkAll:false,
+      groupProductId:[]
     }
   },
 
@@ -164,7 +166,9 @@ export default {
          for (let i = 0; i < len; i++) {
           let key = keys[i];
           if (filterKeys.indexOf(key) !== -1) {
-             result[key] = obj[key];
+             filterKeys.forEach(function(item){
+                result[item] = obj[item];
+               })
           }
        }
       return result;
@@ -303,6 +307,18 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
+
+.checkbox{
+     background: url(/static/radio-all.png) 0 0 no-repeat;
+     width: 18px;
+     height: 18px;
+     display: inline-block;
+     cursor: pointer;
+       transition: all 0.2s ease-in;
+     &.active {
+         background: url(/static/radio-all-active.png) 0 0 no-repeat;
+     }
+ }
 /*表格组件样式*/
 .gm-table {
   font-size: 14px;
