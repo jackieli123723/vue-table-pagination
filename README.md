@@ -13,7 +13,7 @@ vue2封装的table联动组件
 
 ## Live Demo
 
-[vue-table-pagination-demo Site](http://page.lilidong.cn/#/)
+[vue-table-pagination-demo Site](http://static.lilidong.cn/page.html)
 
 ## Install with npm
 
